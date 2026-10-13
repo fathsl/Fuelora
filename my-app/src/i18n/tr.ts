@@ -1,21 +1,34 @@
 export default {
   nav: { home: 'Ana Sayfa', features: 'Özellikler', pricing: 'Fiyatlandırma', faq: 'SSS', contact: 'İletişim', search: 'Ara...', noResults: 'Sonuç bulunamadı', menu: 'Menü', close: 'Menüyü kapat', theme: 'Temayı değiştir' },
   hero: {
-    badge: 'Akıllı yakıt yönetim platformu',
-    title: 'İşinizi yakıtlayın:',
-    highlight: 'daha akıllı kontrol',
-    subtitle: 'Fuelora, akaryakıt istasyonları ve filoların tüketimi takip etmesine, maliyetleri düşürmesine ve gelirini artırmasına yardımcı olur.',
+    badge: 'Akaryakıt yönetim platformu',
+    title: 'Yakıt operasyonlarınızda',
+    highlight: 'tam kontrol',
+    subtitle: 'Fuelora; istasyon, depo ve filolara her litre üzerinde anlık görünürlük sağlar, analiz ve satış stratejisiyle bunu kâra dönüştürür.',
     cta: 'Ücretsiz dene',
-    secondary: 'Fiyatları gör',
+    secondary: 'Planları gör',
     stats: [
       { value: '2.500+', label: 'İstasyon ve filo' },
       { value: '%18', label: 'Ortalama tasarruf' },
       { value: '%99,9', label: 'Çalışma süresi' },
     ],
+    card: {
+      title: 'İstasyon özeti',
+      live: 'Canlı',
+      tanks: [
+        { name: 'Dizel', level: 78 },
+        { name: 'Benzin 95', level: 54 },
+        { name: 'LPG', level: 31 },
+      ],
+      sales: 'Bugünkü satışlar',
+      change: 'Düne göre +%12,4',
+    },
   },
   features: {
     title: 'Yakıt operasyonları için ihtiyacınız olan her şey',
-    subtitle: 'Tek bir basit panelde güçlü araçlar.',
+    subtitle: 'Depodan kasaya, tek platform her litreyi kayıt altında tutar.',
+    badge: 'Platform',
+    uptime: 'Garantili çalışma süresi',
     items: [
       { title: 'Gerçek zamanlı izleme', text: 'Tank seviyelerini, pompa hareketlerini ve teslimatları her cihazdan canlı izleyin.' },
       { title: 'Akıllı analiz', text: 'Tüketim eğilimlerini anlayın, kayıpları oluşmadan fark edin.' },
@@ -28,6 +41,8 @@ export default {
   strategy: {
     title: 'Satış stratejimiz',
     subtitle: 'Yakıt satışlarınızı büyütmek için basit ve kanıtlanmış bir yol.',
+    badge: 'Strateji',
+    caption: 'Her istasyonu ikmalli tutan lojistik',
     steps: [
       { title: 'Analiz', text: 'Satış verilerinizi, müşterilerinizi ve yerel rekabeti inceleriz.' },
       { title: 'Hedefleme', text: 'Müşterileri segmentlere ayırır, geri getiren sadakat teklifleri oluştururuz.' },
@@ -38,6 +53,7 @@ export default {
   pricing: {
     title: 'Abonelik planları',
     subtitle: 'Her işletme farklıdır. Bize işletmenizden bahsedin, size uygun planı oluşturalım.',
+    badge: 'Planlar',
     popular: 'En popüler',
     choose: 'İlgileniyorsanız bana ulaşın',
     price: 'Özel fiyatlandırma',
@@ -49,6 +65,7 @@ export default {
   },
   faq: {
     title: 'Sıkça sorulan sorular',
+    badge: 'SSS',
     items: [
       { q: 'Ücretsiz deneme var mı?', a: 'Evet, tüm planlarda 14 günlük ücretsiz deneme vardır. Kredi kartı gerekmez.' },
       { q: 'Planımı sonradan değiştirebilir miyim?', a: 'Elbette. İstediğiniz zaman yükseltin veya düşürün, faturalama otomatik güncellenir.' },
@@ -59,6 +76,10 @@ export default {
   contact: {
     title: 'Bizimle iletişime geçin',
     subtitle: 'Fuelora hakkında sorularınız mı var? Ekibimiz bir iş günü içinde yanıtlar.',
+    badge: 'İletişim',
+    emailLabel: 'E-posta gönderin',
+    hoursLabel: 'Çalışma saatleri',
+    hours: 'Pzt–Cum, 09:00–18:00',
     name: 'Adınız',
     email: 'E-posta adresi',
     message: 'Mesajınız',
@@ -67,5 +88,5 @@ export default {
     sending: 'Gönderiliyor...',
     error: 'Bir hata oluştu. Lütfen tekrar deneyin.',
   },
-  footer: { rights: 'Tüm hakları saklıdır.' },
+  footer: { rights: 'Tüm hakları saklıdır.', tagline: 'Akaryakıt yönetimi ve hesaplama' },
 }

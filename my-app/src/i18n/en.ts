@@ -1,21 +1,34 @@
 export default {
   nav: { home: 'Home', features: 'Features', pricing: 'Pricing', faq: 'FAQ', contact: 'Contact', search: 'Search...', noResults: 'No results found', menu: 'Menu', close: 'Close menu', theme: 'Toggle theme' },
   hero: {
-    badge: 'Smart fuel management platform',
-    title: 'Fuel your business with',
-    highlight: 'smarter control',
-    subtitle: 'Fuelora helps fuel stations and fleets track consumption, cut costs and grow revenue with real-time insights and automated sales strategies.',
+    badge: 'Fuel management platform',
+    title: 'Total control of your',
+    highlight: 'fuel operations',
+    subtitle: 'Fuelora gives stations, depots and fleets real-time visibility over every litre, with the analytics and sales strategy to turn it into margin.',
     cta: 'Start free trial',
-    secondary: 'See pricing',
+    secondary: 'See plans',
     stats: [
       { value: '2,500+', label: 'Stations & fleets' },
       { value: '18%', label: 'Average cost savings' },
-      { value: '99.9%', label: 'Uptime' },
+      { value: '99.9%', label: 'Platform uptime' },
     ],
+    card: {
+      title: 'Station overview',
+      live: 'Live',
+      tanks: [
+        { name: 'Diesel', level: 78 },
+        { name: 'Gasoline 95', level: 54 },
+        { name: 'LPG', level: 31 },
+      ],
+      sales: "Today's sales",
+      change: '+12.4% vs yesterday',
+    },
   },
   features: {
     title: 'Everything you need to run fuel operations',
-    subtitle: 'Powerful tools in one simple dashboard.',
+    subtitle: 'From the tank to the till, one platform keeps every litre accounted for.',
+    badge: 'Platform',
+    uptime: 'Uptime guaranteed',
     items: [
       { title: 'Real-time monitoring', text: 'Track tank levels, pump activity and deliveries live from any device.' },
       { title: 'Smart analytics', text: 'Understand consumption trends and spot anomalies before they cost you.' },
@@ -28,6 +41,8 @@ export default {
   strategy: {
     title: 'Our sales strategy',
     subtitle: 'A simple, proven path to grow your fuel sales.',
+    badge: 'Strategy',
+    caption: 'Logistics that keep every station supplied',
     steps: [
       { title: 'Analyze', text: 'We study your sales data, customers and local competition.' },
       { title: 'Target', text: 'Segment customers and build loyalty offers that bring them back.' },
@@ -38,6 +53,7 @@ export default {
   pricing: {
     title: 'Subscription plans',
     subtitle: 'Every business is different. Tell us about yours and we will build the right plan.',
+    badge: 'Plans',
     popular: 'Most popular',
     choose: "Contact me if you're interested",
     price: 'Custom pricing',
@@ -49,6 +65,7 @@ export default {
   },
   faq: {
     title: 'Frequently asked questions',
+    badge: 'FAQ',
     items: [
       { q: 'Is there a free trial?', a: 'Yes, every plan includes a 14-day free trial. No credit card required.' },
       { q: 'Can I change my plan later?', a: 'Absolutely. Upgrade or downgrade at any time and billing adjusts automatically.' },
@@ -59,6 +76,10 @@ export default {
   contact: {
     title: 'Get in touch',
     subtitle: 'Questions about Fuelora? Our team replies within one business day.',
+    badge: 'Contact',
+    emailLabel: 'Email us',
+    hoursLabel: 'Working hours',
+    hours: 'Mon–Fri, 09:00–18:00',
     name: 'Your name',
     email: 'Email address',
     message: 'Your message',
@@ -67,5 +88,5 @@ export default {
     sending: 'Sending...',
     error: 'Something went wrong. Please try again.',
   },
-  footer: { rights: 'All rights reserved.' },
+  footer: { rights: 'All rights reserved.', tagline: 'Fuel management & accounting' },
 }

@@ -6,6 +6,9 @@ export const ICONS = {
   moon: 'M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z',
   check: 'M5 13l4 4L19 7',
   plus: 'M12 5v14M5 12h14',
+  mail: 'M3 7l9 6 9-6M5 5h14a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2z',
+  clock: 'M12 7v5l3 2M21 12a9 9 0 11-18 0 9 9 0 0118 0z',
+  arrow: 'M5 12h14M13 6l6 6-6 6',
   features: [
     'M13 2L4 14h7l-1 8 9-12h-7l1-8z',
     'M4 20V10M10 20V4M16 20v-7M22 20H2',

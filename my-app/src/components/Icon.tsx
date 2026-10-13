@@ -1,0 +1,13 @@
+import { memo } from 'react'
+
+type Props = { d: string; className?: string }
+
+function Icon({ d, className = 'h-5 w-5' }: Props) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden>
+      <path d={d} />
+    </svg>
+  )
+}
+
+export default memo(Icon)

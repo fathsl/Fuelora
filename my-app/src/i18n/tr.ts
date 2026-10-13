@@ -1,0 +1,71 @@
+export default {
+  nav: { home: 'Ana Sayfa', features: 'Özellikler', pricing: 'Fiyatlandırma', faq: 'SSS', contact: 'İletişim', search: 'Ara...', noResults: 'Sonuç bulunamadı', menu: 'Menü', close: 'Menüyü kapat', theme: 'Temayı değiştir' },
+  hero: {
+    badge: 'Akıllı yakıt yönetim platformu',
+    title: 'İşinizi yakıtlayın:',
+    highlight: 'daha akıllı kontrol',
+    subtitle: 'Fuelora, akaryakıt istasyonları ve filoların tüketimi takip etmesine, maliyetleri düşürmesine ve gelirini artırmasına yardımcı olur.',
+    cta: 'Ücretsiz dene',
+    secondary: 'Fiyatları gör',
+    stats: [
+      { value: '2.500+', label: 'İstasyon ve filo' },
+      { value: '%18', label: 'Ortalama tasarruf' },
+      { value: '%99,9', label: 'Çalışma süresi' },
+    ],
+  },
+  features: {
+    title: 'Yakıt operasyonları için ihtiyacınız olan her şey',
+    subtitle: 'Tek bir basit panelde güçlü araçlar.',
+    items: [
+      { title: 'Gerçek zamanlı izleme', text: 'Tank seviyelerini, pompa hareketlerini ve teslimatları her cihazdan canlı izleyin.' },
+      { title: 'Akıllı analiz', text: 'Tüketim eğilimlerini anlayın, kayıpları oluşmadan fark edin.' },
+      { title: 'Filo kartları', text: 'Harcama limitleri ve sürücü kontrolleriyle yakıt kartlarını yönetin.' },
+      { title: 'Dinamik fiyatlandırma', text: 'Fiyatları piyasa, talep ve rakiplere göre otomatik ayarlayın.' },
+      { title: 'Güvenli ödemeler', text: 'Her satış için hızlı, şifreli ödeme ve otomatik faturalama.' },
+      { title: 'Uyarılar ve raporlar', text: 'Anlık uyarılar ve zamanlanmış raporlar e-postanıza gelsin.' },
+    ],
+  },
+  strategy: {
+    title: 'Satış stratejimiz',
+    subtitle: 'Yakıt satışlarınızı büyütmek için basit ve kanıtlanmış bir yol.',
+    steps: [
+      { title: 'Analiz', text: 'Satış verilerinizi, müşterilerinizi ve yerel rekabeti inceleriz.' },
+      { title: 'Hedefleme', text: 'Müşterileri segmentlere ayırır, geri getiren sadakat teklifleri oluştururuz.' },
+      { title: 'Optimizasyon', text: 'Litre başına marjı artırmak için fiyat ve kampanyaları otomatikleştiririz.' },
+      { title: 'Ölçekleme', text: 'Yeni istasyon, filo ve iş ortaklarına güvenle açılın.' },
+    ],
+  },
+  pricing: {
+    title: 'Abonelik planları',
+    subtitle: 'Her işletme farklıdır. Bize işletmenizden bahsedin, size uygun planı oluşturalım.',
+    popular: 'En popüler',
+    choose: 'İlgileniyorsanız bana ulaşın',
+    price: 'Özel fiyatlandırma',
+    plans: [
+      { name: 'Başlangıç', desc: 'Tek istasyon için', features: ['1 istasyon', 'Gerçek zamanlı izleme', 'Temel raporlar', 'E-posta desteği'] },
+      { name: 'İşletme', desc: 'Büyüyen ağlar için', features: ['10 istasyona kadar', 'Akıllı analiz', 'Filo kartları', 'Dinamik fiyatlandırma', 'Öncelikli destek'] },
+      { name: 'Kurumsal', desc: 'Büyük operatörler için', features: ['Sınırsız istasyon', 'Özel entegrasyonlar', 'Özel yönetici', 'SLA ve 7/24 destek'] },
+    ],
+  },
+  faq: {
+    title: 'Sıkça sorulan sorular',
+    items: [
+      { q: 'Ücretsiz deneme var mı?', a: 'Evet, tüm planlarda 14 günlük ücretsiz deneme vardır. Kredi kartı gerekmez.' },
+      { q: 'Planımı sonradan değiştirebilir miyim?', a: 'Elbette. İstediğiniz zaman yükseltin veya düşürün, faturalama otomatik güncellenir.' },
+      { q: 'Hangi cihazlar destekleniyor?', a: 'Fuelora masaüstü, tablet ve mobilde tüm modern tarayıcılarda çalışır.' },
+      { q: 'Verilerim ne kadar güvenli?', a: 'Tüm veriler aktarımda ve depolamada şifrelenir, günlük yedeklenir.' },
+    ],
+  },
+  contact: {
+    title: 'Bizimle iletişime geçin',
+    subtitle: 'Fuelora hakkında sorularınız mı var? Ekibimiz bir iş günü içinde yanıtlar.',
+    name: 'Adınız',
+    email: 'E-posta adresi',
+    message: 'Mesajınız',
+    send: 'Mesaj gönder',
+    sent: 'Teşekkürler! En kısa sürede dönüş yapacağız.',
+    sending: 'Gönderiliyor...',
+    error: 'Bir hata oluştu. Lütfen tekrar deneyin.',
+  },
+  footer: { rights: 'Tüm hakları saklıdır.' },
+}

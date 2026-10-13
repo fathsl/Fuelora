@@ -1,0 +1,71 @@
+export default {
+  nav: { home: 'Home', features: 'Features', pricing: 'Pricing', faq: 'FAQ', contact: 'Contact', search: 'Search...', noResults: 'No results found', menu: 'Menu', close: 'Close menu', theme: 'Toggle theme' },
+  hero: {
+    badge: 'Smart fuel management platform',
+    title: 'Fuel your business with',
+    highlight: 'smarter control',
+    subtitle: 'Fuelora helps fuel stations and fleets track consumption, cut costs and grow revenue with real-time insights and automated sales strategies.',
+    cta: 'Start free trial',
+    secondary: 'See pricing',
+    stats: [
+      { value: '2,500+', label: 'Stations & fleets' },
+      { value: '18%', label: 'Average cost savings' },
+      { value: '99.9%', label: 'Uptime' },
+    ],
+  },
+  features: {
+    title: 'Everything you need to run fuel operations',
+    subtitle: 'Powerful tools in one simple dashboard.',
+    items: [
+      { title: 'Real-time monitoring', text: 'Track tank levels, pump activity and deliveries live from any device.' },
+      { title: 'Smart analytics', text: 'Understand consumption trends and spot anomalies before they cost you.' },
+      { title: 'Fleet cards', text: 'Issue and manage fuel cards with spending limits and driver controls.' },
+      { title: 'Dynamic pricing', text: 'Adjust prices automatically based on market, demand and competitors.' },
+      { title: 'Secure payments', text: 'Fast, encrypted payments and automatic invoicing for every sale.' },
+      { title: 'Alerts & reports', text: 'Get instant alerts and scheduled reports straight to your inbox.' },
+    ],
+  },
+  strategy: {
+    title: 'Our sales strategy',
+    subtitle: 'A simple, proven path to grow your fuel sales.',
+    steps: [
+      { title: 'Analyze', text: 'We study your sales data, customers and local competition.' },
+      { title: 'Target', text: 'Segment customers and build loyalty offers that bring them back.' },
+      { title: 'Optimize', text: 'Automate pricing and promotions to maximize margin per litre.' },
+      { title: 'Scale', text: 'Expand to new stations, fleets and partners with confidence.' },
+    ],
+  },
+  pricing: {
+    title: 'Subscription plans',
+    subtitle: 'Every business is different. Tell us about yours and we will build the right plan.',
+    popular: 'Most popular',
+    choose: "Contact me if you're interested",
+    price: 'Custom pricing',
+    plans: [
+      { name: 'Starter', desc: 'For single stations', features: ['1 station', 'Real-time monitoring', 'Basic reports', 'Email support'] },
+      { name: 'Business', desc: 'For growing networks', features: ['Up to 10 stations', 'Smart analytics', 'Fleet cards', 'Dynamic pricing', 'Priority support'] },
+      { name: 'Enterprise', desc: 'For large operators', features: ['Unlimited stations', 'Custom integrations', 'Dedicated manager', 'SLA & 24/7 support'] },
+    ],
+  },
+  faq: {
+    title: 'Frequently asked questions',
+    items: [
+      { q: 'Is there a free trial?', a: 'Yes, every plan includes a 14-day free trial. No credit card required.' },
+      { q: 'Can I change my plan later?', a: 'Absolutely. Upgrade or downgrade at any time and billing adjusts automatically.' },
+      { q: 'Which devices are supported?', a: 'Fuelora works in any modern browser on desktop, tablet and mobile.' },
+      { q: 'How secure is my data?', a: 'All data is encrypted in transit and at rest, with daily backups.' },
+    ],
+  },
+  contact: {
+    title: 'Get in touch',
+    subtitle: 'Questions about Fuelora? Our team replies within one business day.',
+    name: 'Your name',
+    email: 'Email address',
+    message: 'Your message',
+    send: 'Send message',
+    sent: 'Thanks! We will get back to you soon.',
+    sending: 'Sending...',
+    error: 'Something went wrong. Please try again.',
+  },
+  footer: { rights: 'All rights reserved.' },
+}
